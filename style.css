@@ -1,0 +1,22 @@
+@media (max-width:499px) {
+    body {
+        background:black;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    #hole-Background {
+        width:100vw;
+        height:100vh;
+        overflow: hidden;
+        background:white;
+    }
+
+    #bottom-Bar {
+        width:100vh;
+        height:60px;
+        position:absolute;
+        top:calc(100vh - 60px);
+        background:rgb(150, 150, 150);
+    }
+}
